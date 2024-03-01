@@ -1,0 +1,7 @@
+server:
+  port: 8788
+  servlet:
+    context-path: /ddd
+spring:
+  profiles:
+    active: dev

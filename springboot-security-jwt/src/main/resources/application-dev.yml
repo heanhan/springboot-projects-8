@@ -1,0 +1,14 @@
+server:
+  port: 8380
+# DataSource Config
+spring:
+  main:
+    allow-circular-references: true
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://127.0.0.1:3306/springboot-security-jwt?serverTimezone=PRC
+    username: root
+    password: abcd@123456
+mybatis-plus:
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
